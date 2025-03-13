@@ -1,0 +1,386 @@
+{
+    "type": "modal_logic",
+    "axiom": "disjunctive_syllogism",
+    "example_sentences": [
+        {
+            "context": "The advertisement for the concert states that it will include either a popular band or a local artist. One or both of these performances must happen. We are not certain which one is guaranteed. However, according to the promoter, the popular band might not be able to perform.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The concert will necessarily feature the popular band."
+                },
+                {
+                    "choice_2": "The concert will necessarily feature both the popular band and the local artist."
+                },
+                {
+                    "choice_3": "The concert will necessarily feature neither the popular band nor the local artist."
+                },
+                {
+                    "choice_4": "The concert will necessarily feature the local artist."
+                }
+            ],
+            "answer": "choice_4"
+        },
+        {
+            "context": "The store's flyer indicates that there will be either a special sale on electronics or clothing. One or both of these sales are definitely happening. It's unclear which one is certain. However, the store manager mentioned that the sale on electronics is not guaranteed.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "There will necessarily be a special sale on electronics."
+                },
+                {
+                    "choice_2": "The store manager, John, confirmed that there will be no sales at all."
+                },
+                {
+                    "choice_3": "There will necessarily be a special sale on both electronics and clothing."
+                },
+                {
+                    "choice_4": "There will necessarily be a special sale on clothing."
+                }
+            ],
+            "answer": "choice_4"
+        },
+        {
+            "context": "The film critic mentioned that the studio plans to either produce a sequel or a spin-off to the popular movie. One or both of these follow-ups is on the way. We don't know which one is assured. However, the director suggested that a sequel isn't necessarily in the works.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "There will necessarily be a sequel."
+                },
+                {
+                    "choice_2": "The director, John, suggested that a spin-off isn't necessarily in the works."
+                },
+                {
+                    "choice_3": "There will necessarily be a spin-off."
+                },
+                {
+                    "choice_4": "The studio plans to produce a prequel or a remake."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The sports analyst predicted that the team might either win the championship or the runner-up title. One or both outcomes are likely to occur. We aren't sure which one will definitely happen. However, the coach implied that winning the championship is not a certainty.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The coach, John, will definitely resign if the team does not win any title."
+                },
+                {
+                    "choice_2": "The team will necessarily win the runner-up title."
+                },
+                {
+                    "choice_3": "The team will necessarily win both the championship and the runner-up title."
+                },
+                {
+                    "choice_4": "The team will necessarily win the championship."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The tracking information suggests that the package will either arrive by noon or by the end of the day. One or both of these delivery times is assured. We cannot determine which one is definite. However, the delivery service noted that arriving by noon is not guaranteed.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The package will necessarily arrive by the end of the day."
+                },
+                {
+                    "choice_2": "The package will necessarily arrive by noon."
+                },
+                {
+                    "choice_3": "The package might not arrive at all today."
+                },
+                {
+                    "choice_4": "The package will be delivered by Sarah or John."
+                }
+            ],
+            "answer": "choice_1"
+        },
+        {
+            "context": "The event organizers have announced that the concert will either start at 7 PM or feature a special guest performer, making one or both of these statements true. We are uncertain about which is necessarily the case. However, ticket sales indicate that the concert may not definitely begin at 7 PM.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The concert will definitely start at 7 PM or not have any special guests."
+                },
+                {
+                    "choice_2": "The special guest performer will definitely be part of the concert."
+                },
+                {
+                    "choice_3": "The concert will definitely start at 7 PM or feature a special guest performer."
+                },
+                {
+                    "choice_4": "The concert will definitely start at 8 PM or feature a performance by John Doe."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The analysts mentioned that the report will either be published tomorrow or that it will contain new insights, meaning one or both of these outcomes must happen. We don't know which will occur necessarily. However, the team has advised that the report may not be published as planned.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "It is necessary for the report to be delayed or for Sarah to provide additional data."
+                },
+                {
+                    "choice_2": "It is necessary for the report to be published tomorrow or contain new insights."
+                },
+                {
+                    "choice_3": "It is necessary for the report to contain new insights."
+                },
+                {
+                    "choice_4": "It is necessary for John to review the report before it is published."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The promotional material states that the movie will either be released next week or will feature a famous actor, meaning at least one of these scenarios is guaranteed. We're unclear on which is definitely correct. However, insiders suggest that the movie's release next week is not guaranteed.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The movie will definitely be released next week or feature a famous actor."
+                },
+                {
+                    "choice_2": "The movie will definitely not feature a famous actor or be released next month."
+                },
+                {
+                    "choice_3": "The movie will possibly be released next week or feature a director named John Smith."
+                },
+                {
+                    "choice_4": "We can conclude that the movie will possibly feature a famous actor."
+                }
+            ],
+            "answer": "choice_4"
+        },
+        {
+            "context": "The manager confirmed that the store will either have a sale this weekend or will provide discounts on electronics, ensuring that at least one of these outcomes will occur. However, it's unclear which is inevitable. Yet, reports suggest the store may not have the sale over the weekend.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The store will definitely offer discounts on both electronics and clothing."
+                },
+                {
+                    "choice_2": "The manager, John, will definitely resign or the store will close down."
+                },
+                {
+                    "choice_3": "The store will definitely offer discounts on electronics."
+                },
+                {
+                    "choice_4": "The store will definitely have a sale this weekend."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The menu indicates that the chef will either prepare a vegetarian dish or a gluten-free dish, signifying one or both options must be available. We are unsure which one will be prepared necessarily. Nevertheless, there are indications that the vegetarian dish may not be on the menu.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "It is certain the chef will prepare both a vegetarian and a gluten-free dish."
+                },
+                {
+                    "choice_2": "It is certain that John will prepare a gluten-free dish."
+                },
+                {
+                    "choice_3": "It is certain the chef will prepare a gluten-free dish."
+                },
+                {
+                    "choice_4": "It is certain the chef will prepare a vegetarian dish."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The studio announced that the movie will either premiere in theaters or be available for streaming on the same day. One or both of these options will definitely happen. However, according to the production team, it is not guaranteed that the movie will be released in theaters.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The movie will definitely be available in theaters tomorrow."
+                },
+                {
+                    "choice_2": "The movie will definitely be available for streaming tomorrow."
+                },
+                {
+                    "choice_3": "John mentioned that the movie will definitely be available in theaters or on DVD tomorrow."
+                },
+                {
+                    "choice_4": "The movie will definitely be available for streaming or in theaters tomorrow."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The city officials stated that the broken bridge will either be repaired today or will remain closed for safety reasons. One or both outcomes must occur. However, local authorities mentioned that it is not certain the bridge will be repaired today.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The bridge will be inspected by Sarah or will be partially reopened."
+                },
+                {
+                    "choice_2": "The bridge will be repaired by John or will be used for a local event."
+                },
+                {
+                    "choice_3": "The bridge will necessarily be closed for safety."
+                },
+                {
+                    "choice_4": "The bridge will be repaired today or will remain open."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The event organizers declared that the concert will either occur in the park or be streamed online. One or both options will surely happen. However, they indicated that it is not necessarily the case that the concert will be held at the park.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The concert will definitely be held online."
+                },
+                {
+                    "choice_2": "The concert will definitely be held in the park."
+                },
+                {
+                    "choice_3": "The concert will definitely be held in the park or at the beach."
+                },
+                {
+                    "choice_4": "The concert will definitely be held in the park or at Sarah's house."
+                }
+            ],
+            "answer": "choice_1"
+        },
+        {
+            "context": "The team lead announced that John will either attend the business meeting in person or will opt to work from home that day. One or both situations must take place. However, it is not confirmed that John will attend the meeting.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "Sarah will necessarily work from home."
+                },
+                {
+                    "choice_2": "John will necessarily work from home."
+                },
+                {
+                    "choice_3": "John will necessarily both attend the business meeting in person and work from home."
+                },
+                {
+                    "choice_4": "John will necessarily attend the business meeting in person."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The principal announced that the school will either have a field trip next week or will transition to virtual classes. One or both of these events will take place. However, it is not guaranteed that the field trip will happen.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The school will definitely have a field trip next week."
+                },
+                {
+                    "choice_2": "The school will have a picnic or a sports day next week."
+                },
+                {
+                    "choice_3": "John will lead the virtual classes or the field trip next week."
+                },
+                {
+                    "choice_4": "The school will definitely hold virtual classes next week."
+                }
+            ],
+            "answer": "choice_4"
+        },
+        {
+            "context": "Maria mentioned that she will either bake a cake for the celebration or buy one from the bakery. One or both of these actions will definitely occur. However, she has stated that baking the cake is not necessarily guaranteed.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "Maria will necessarily buy a cake from the bakery."
+                },
+                {
+                    "choice_2": "Maria will necessarily bake a cake for the celebration."
+                },
+                {
+                    "choice_3": "Maria will neither bake a cake nor buy one from the bakery."
+                },
+                {
+                    "choice_4": "John will necessarily buy a cake from the bakery."
+                }
+            ],
+            "answer": "choice_1"
+        },
+        {
+            "context": "The mechanic confirmed that the car will either pass the emissions test or will require further repairs. One or both possibilities must come true. However, it\u2019s been mentioned that it is not necessarily the case that the car will pass the emissions test.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "Sarah will definitely get a promotion or win the lottery."
+                },
+                {
+                    "choice_2": "The car will definitely go for repairs."
+                },
+                {
+                    "choice_3": "The car will definitely pass the emissions test."
+                },
+                {
+                    "choice_4": "The mechanic will definitely buy a new car or go on vacation."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The organizers stated that the festival will either take place outdoors as scheduled or will be moved indoors. One or both arrangements will certainly be made. However, it was indicated that having the festival outdoors is not necessarily guaranteed.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "John will be the main performer or the festival will have no performers."
+                },
+                {
+                    "choice_2": "The festival will definitely take place outdoors."
+                },
+                {
+                    "choice_3": "The festival will definitely be moved indoors."
+                },
+                {
+                    "choice_4": "The festival will be canceled or postponed to a later date."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The weather forecast for tonight says it will either rain or snow tomorrow. One or both of these things is bound to happen. We're not sure which one is inevitable. However, according to the experts, it won't necessarily rain tomorrow.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "It will definitely snow tomorrow."
+                },
+                {
+                    "choice_2": "It will definitely be sunny or windy tomorrow."
+                },
+                {
+                    "choice_3": "It will definitely rain or snow tomorrow."
+                },
+                {
+                    "choice_4": "John believes it will definitely be cloudy or foggy tomorrow."
+                }
+            ],
+            "answer": "choice_1"
+        },
+        {
+            "context": "Lisa heard that there will be either a basketball match or a football match tomorrow. One or both of these two matches will definitely be held. We are not sure which match is inevitable. However, according to the PE teacher, the basketball match may not be held.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "There will necessarily be a volleyball match or a tennis match tomorrow."
+                },
+                {
+                    "choice_2": "There will necessarily be a football match tomorrow."
+                },
+                {
+                    "choice_3": "According to John, there will necessarily be a swimming competition or a track meet tomorrow."
+                },
+                {
+                    "choice_4": "There will necessarily be a basketball match tomorrow."
+                }
+            ],
+            "answer": "choice_2"
+        }
+    ]
+}

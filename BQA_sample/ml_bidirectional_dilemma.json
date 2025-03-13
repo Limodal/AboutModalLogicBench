@@ -1,0 +1,426 @@
+{
+    "type": "modal_logic",
+    "axiom": "bidirectional_dilemma",
+    "example_sentences": [
+        {
+            "context": "If it is necessarily the case that Emma completes the software update, then the system must necessarily become operational. If it is necessarily the case that Liam drafts the project proposal, then the proposal must necessarily get submitted. It is known that either Emma necessarily completes the software update or the proposal is necessarily not submitted. It is uncertain which statement is correct, or whether both are correct.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the system has become operational, (b) It must not be the case that Liam drafts the project proposal.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the system has become operational, (b) It must not be the case that Liam drafts the project proposal.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the system has become operational, (b) It must be the case that Liam drafts the project proposal.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the system has become operational, (b) It must be the case that Liam drafts the project proposal.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Noah trains for the marathon, then he must necessarily build physical endurance. If it is necessarily the case that Mia prepares healthy meals, then she must necessarily feel energized. It is understood that either Noah necessarily trains for the marathon or Mia necessarily does not feel energized. It is unclear which statement is accurate, or whether both are accurate.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Noah builds physical endurance, (b) It must not be the case that Mia prepares healthy meals.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Noah builds physical endurance, (b) It must not be the case that Mia prepares healthy meals.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Noah builds physical endurance, (b) It must be the case that Mia prepares healthy meals.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Noah builds physical endurance, (b) It must be the case that Mia prepares healthy meals.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Sophia organizes the community event, then the event must necessarily take place successfully. If it is necessarily the case that Oliver secures the venue, then community members must necessarily attend the event. It is established that either Sophia certainly organizes the community event or community members certainly do not attend the event. It remains uncertain which statement holds true, or if both are true.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the event takes place successfully, (b) It must not be the case that Oliver secures the venue.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the event takes place successfully, (b) It must not be the case that Oliver secures the venue.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the event takes place successfully, (b) It must be the case that Oliver secures the venue.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the event takes place successfully, (b) It must be the case that Oliver secures the venue.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Liam writes the article, then the article must necessarily get published. If it is necessarily the case that Emma edits the article, then readers must necessarily engage with the article. It is seen that either Liam certainly writes the article or readers certainly do not engage with the article. It is unclear which statement is correct, or whether both are correct.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the article gets published, (b) It must not be the case that Emma edits the article.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the article gets published, (b) It must not be the case that Emma edits the article.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the article gets published, (b) It must be the case that Emma edits the article.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the article gets published, (b) It must be the case that Emma edits the article.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Ryan completes the sales report, then the management must necessarily review the report. If it is necessarily the case that Mia prepares the presentation, then the audience must necessarily receive the presentation. It is evident that either Ryan necessarily completes the sales report or the audience necessarily does not receive the presentation. It is uncertain which statement is valid, or whether both are valid.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the management reviews the report, (b) It must not be the case that Mia prepares the presentation.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the management reviews the report, (b) It must not be the case that Mia prepares the presentation.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the management reviews the report, (b) It must be the case that Mia prepares the presentation.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the management reviews the report, (b) It must be the case that Mia prepares the presentation.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Mary submits her thesis, she must necessarily defend her thesis. If it is necessarily the case that David writes the research paper, he must necessarily present the research findings. We knew that either Mary necessarily submits her thesis or David necessarily does not present the research findings. It is not certain which statement is correct, or whether both are correct.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Mary defends her thesis , (b) It must not be the case that David writes the research paper.",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Mary defends her thesis , (b) It must be the case that David writes the research paper.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Mary defends her thesis , (b) It must be the case that David presents the research findings.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Mary defends her thesis , (b) It must not be the case that David writes the research paper.",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Lily gets a job interview, she must necessarily get hired. If it is necessarily the case that Tom applies for a job, he must necessarily get an interview. We knew that either Lily necessarily gets a job interview or Tom necessarily does not get an interview. It is not certain which statement is correct, or whether both are correct.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Lily gets hired , (b) It must not be the case that Tom applies for a job.",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Lily gets hired , (b) It must be the case that Tom applies for a job.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Lily gets hired , (b) It must be the case that Tom gets an interview.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Lily gets hired , (b) It must not be the case that Tom applies for a job.",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Jessica finishes the book, she must necessarily publish an article. If it is necessarily the case that Matt writes a review, he must necessarily read the review. We knew that either Jessica necessarily finishes the book or Matt necessarily does not read the review. It is not certain which statement is correct, or whether both are correct.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Jessica publishes an article , (b) It must not be the case that Matt writes a review.",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Jessica publishes an article , (b) It must be the case that Matt writes a review.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Jessica publishes an article , (b) It must be the case that Matt reads the review.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Jessica publishes an article , (b) It must not be the case that Matt writes a review.",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that John buys a new car, he must necessarily drive the new car. If it is necessarily the case that Emily applies for a loan, she must necessarily get approved for the loan. We knew that either John certainly buys a new car or Emily necessarily does not get approved for the loan. It is not certain which statement is correct, or whether both are correct.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that John drives the new car , (b) It must not be the case that Emily applies for a loan.",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that John drives the new car , (b) It must be the case that Emily applies for a loan.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that John drives the new car , (b) It must be the case that Emily gets approved for the loan.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that John drives the new car , (b) It must not be the case that Emily applies for a loan.",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Olivia completes the project, she must necessarily present the final report. If it is necessarily the case that Lucas attends the meeting, he must necessarily provide the meeting minutes. We knew that either Olivia necessarily completes the project or Lucas necessarily does not provide the meeting minutes. It is not certain which statement is correct, or whether both are correct.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Olivia presents the final report , (b) It must not be the case that Lucas attends the meeting.",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Olivia presents the final report , (b) It must be the case that Lucas attends the meeting.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Olivia presents the final report , (b) It must be the case that Lucas provides the meeting minutes.",
+                    "answer": "no."
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Olivia presents the final report , (b) It must not be the case that Lucas attends the meeting.",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Emily completes the marketing report, then the team must necessarily hold a meeting. If it is necessarily the case that David prepares the presentation, then the client must necessarily receive the updates. We also know that either Emily certainly completed the marketing report or the client certainly did not receive the updates. It is unclear which statement is correct, or whether both are correct.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the team holds a meeting, (b) It must not be the case that David prepares the presentation.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the team holds a meeting, (b) It must not be the case that David prepares the presentation.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the team holds a meeting, (b) It must be the case that David prepares the presentation.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the team holds a meeting, (b) It must not be the case that David prepares the presentation.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Laura organizes the community event, then the community must necessarily gather. If it is necessarily the case that Mark schedules the venue, then the event must necessarily get promoted. We also know that either Laura certainly organized the community event, or the event was certainly not promoted. It is uncertain which statement is true, or if both hold.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the community gathers, (b) It must not be the case that Mark schedules the venue.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the community gathers, (b) It must not be the case that Mark schedules the venue.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the community gathers, (b) It must be the case that Mark schedules the venue.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the community gathers, (b) It must not be the case that Mark schedules the venue.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Tom submits his application, then he must necessarily receive an interview invitation. If it is necessarily the case that Alice reviews the applications, then the hiring manager must necessarily evaluate the candidates. We also know that either Tom certainly submitted his application or the hiring manager necessarily did not evaluate the candidates. It is not clear which statement is correct, or whether both are correct.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Tom receives an interview invitation, (b) It must not be the case that Alice reviews the applications.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Tom receives an interview invitation, (b) It must not be the case that Alice reviews the applications.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Tom receives an interview invitation, (b) It must be the case that Alice reviews the applications.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Tom receives an interview invitation, (b) It must not be the case that Alice reviews the applications.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Victor studies for the exam, then he must necessarily pass the exam. If it is necessarily the case that Nina helps with the study guide, then the study materials must necessarily be prepared. It is established that either Victor certainly studied for the exam or the study materials necessarily were not prepared. It is uncertain which statement is accurate, or whether both can be true.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Victor passes the exam, (b) It must not be the case that Nina helps with the study guide.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Victor passes the exam, (b) It must not be the case that Nina helps with the study guide.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Victor passes the exam, (b) It must be the case that Nina helps with the study guide.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Victor passes the exam, (b) It must not be the case that Nina helps with the study guide.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Sophie trains for the marathon, then she must necessarily complete the marathon. If it is necessarily the case that Jack runs the logistics, then the event must necessarily get organized. We also know that either Sophie certainly trained for the marathon or the event was certainly not organized. It is unclear which statement is true, or if both statements hold.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Sophie completes the marathon, (b) It must not be the case that Jack runs the logistics.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Sophie completes the marathon, (b) It must not be the case that Jack runs the logistics.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Sophie completes the marathon, (b) It must be the case that Jack runs the logistics.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Sophie completes the marathon, (b) It must not be the case that Jack runs the logistics.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Lucas improves his coding skills, then he must necessarily finish his project. If it is necessarily the case that Emma tests the software, then the project must be ready for launch. We also know that either Lucas certainly improved his coding skills or the project was certainly not ready for launch. It remains uncertain which statement is correct, or whether both statements can be true.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Lucas finishes his project, (b) It must not be the case that Emma tests the software.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Lucas finishes his project, (b) It must not be the case that Emma tests the software.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Lucas finishes his project, (b) It must be the case that Emma tests the software.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Lucas finishes his project, (b) It must not be the case that Emma tests the software.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Rachel explores new recipes, then she must necessarily cook a meal. If it is necessarily the case that James conducts a taste test, then the dinner party must necessarily be successful. We also know that either Rachel necessarily explored new recipes or the dinner party was certainl not successful. It remains unclear which statement is accurate, or whether both can be true.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Rachel cooks a meal, (b) It must not be the case that James conducts a taste test.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Rachel cooks a meal, (b) It must not be the case that James conducts a taste test.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Rachel cooks a meal, (b) It must be the case that James conducts a taste test.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Rachel cooks a meal, (b) It must not be the case that James conducts a taste test.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Olivia learns a new software program, then she must necessarily complete the software project. If it is necessarily the case that Liam provides technical support, then the software must necessarily be implemented successfully. We also know that either Olivia necessarily learned the new software program or the software was certainly not implemented successfully. It is uncertain which statement holds, or if both statements are accurate.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Olivia completes the software project, (b) It must not be the case that Liam provides technical support.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Olivia completes the software project, (b) It must not be the case that Liam provides technical support.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Olivia completes the software project, (b) It must be the case that Liam provides technical support.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Olivia completes the software project, (b) It must not be the case that Liam provides technical support.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that Nathan practices his presentation, then he must necessarily deliver the presentation. If it is necessarily the case that Zoe designs the slides, then the event must necessarily be successful. It is known that either Nathan necessarily practiced his presentation or the event was certainly not successful. It remains uncertain which statement is true, or if both can be true.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Nathan delivers the presentation, (b) It must not be the case that Zoe designs the slides.  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Nathan delivers the presentation, (b) It must not be the case that Zoe designs the slides.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Nathan delivers the presentation, (b) It must be the case that Zoe designs the slides.  ",
+                    "answer": "no.  "
+                },
+                {
+                    "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that Nathan delivers the presentation, (b) It must not be the case that Zoe designs the slides.  ",
+                    "answer": "no.  "
+                }
+            ]
+        },
+        {
+            "context": "If it is necessarily the case that John finishes the design task, the team must necessarily start coding. If it is necessarily the case that Sarah writes the documentation, the project must necessarily get reviewed. We knew that either John necessarily completed the design task or the project was certainly not reviewed. It is not certain which statement is correct, or whether both are correct. ",
+            "qa_pairs": [
+            {
+            "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the team have started coding, (b) It must not be the case that Sarah writes the documentation. ",
+            "answer": "yes. "
+            },
+            {
+            "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the team have started coding, (b) It must not be the case that Sarah writes the documentation. ",
+            "answer": "no. "
+            },
+            {
+            "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the team have started coding, (b) It must be the case that Sarah writes the documentation. ",
+            "answer": "no. "
+            },
+            {
+            "question": "Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the team have started coding, (b) It must be the case that Sarah writes the documentation. ",
+            "answer": "no. "
+            }
+        ]
+        }
+    ]
+}

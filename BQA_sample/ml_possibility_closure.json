@@ -1,0 +1,266 @@
+{
+    "type": "modal_logic",
+    "axiom": "possibility_closure",
+    "example_sentences": [
+        {
+            "context": "The museum has a history of extending its hours during high-demand exhibitions to accommodate more visitors. It is possible that the museum extends its hours for special exhibitions.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the museum extending its hours for special exhibitions is itself a certainty?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the museum extending its hours for special exhibitions is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The restaurant frequently updates its menu to cater to dietary preferences and trends. It is possible that the restaurant offers vegan options on the menu.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the restaurant offering vegan options on the menu is itself a certainty?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the restaurant offering vegan options on the menu is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The library has previously extended study hours during finals to accommodate the needs of students. It is possible that the library provides extended study hours during finals week.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the library providing extended study hours during finals week is itself a certainty?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the library providing extended study hours during finals week is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The company is exploring flexible work arrangements to support employee well-being and productivity. It is possible that the company introduces remote work options for employees.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the company introducing remote work options for employees is itself a certainty?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the company introducing remote work options for employees is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The school has a program for students who need extra academic support, and after-school tutoring has been implemented in the past. It is possible that the school offers after-school tutoring for struggling students.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the school offering after-school tutoring for struggling students is itself a certainty?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we confirm that the possibility of the school offering after-school tutoring for struggling students is itself not a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The library has recently upgraded its digital infrastructure to make resources more accessible. It is possible that the library provides online reading materials.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the library providing online reading materials is itself a certainty?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the library providing online reading materials is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The gym is expanding its facilities to offer a variety of fitness options to its members. It is possible that the gym has a dedicated yoga space.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the gym having a dedicated yoga space is itself a certainty?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the gym having a dedicated yoga space is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The restaurant is known for adapting to changing food trends and customer preferences. It is possible that the restaurant introduces a vegan menu.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the restaurant introducing a vegan menu is itself a certainty?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the restaurant introducing a vegan menu is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The school is exploring options to provide more flexible learning opportunities. It is possible that the school offers evening classes for adults.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the school offering evening classes for adults is itself a certainty?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the school offering evening classes for adults is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The company has implemented flexible work policies in response to employee feedback. It is possible that the company allows remote work for some roles.  ",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the company allowing remote work for some roles is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we confirm that the possibility of the company allowing remote work for some roles is itself not a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The library staff is reviewing usage patterns and considering community demands. It is possible that the library could extend its opening hours.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the library extending its opening hours is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the library extending its opening hours is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The gym regularly updates its schedule based on member interest and feedback. It is possible that the gym introduces new fitness classes.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the gym introducing new fitness classes is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the gym introducing new fitness classes is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The online shop evaluates sales trends and customer preferences during the holiday season. It is possible that the online shop has a holiday sale.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the online shop having a holiday sale is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the online shop having a holiday sale is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The school is planning special educational events based on curriculum goals and student interest. It is possible that the school organizes a field trip.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the school organizing a field trip is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the school organizing a field trip is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The restaurant focuses on fresh, local ingredients and often updates its menu based on seasonal availability. It is possible that the restaurant serves seasonal dishes.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the restaurant serving seasonal dishes is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the restaurant serving seasonal dishes is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The event organizers are considering collaborations with various artists to enhance the concert experience. It is possible that the concert features guest performers.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the concert featuring guest performers is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the concert featuring guest performers is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The tech company is exploring market trends and customer needs to expand its offerings. It is possible that the tech company launches a new product line.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the tech company launching a new product line is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the tech company launching a new product line is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The bookstore regularly collaborates with publishers and local authors to promote new releases. It is possible that the bookstore hosts author signings.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the bookstore hosting author signings is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the bookstore hosting author signings is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The museum rotates its exhibitions to include a variety of artistic styles and movements. It is possible that the museum exhibits contemporary art.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the museum exhibiting contemporary art is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the museum exhibiting contemporary art is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The festival organizers are committed to offering engaging activities that cater to various audiences. It is possible that the festival includes interactive workshops.",
+            "qa_pairs": [
+                {
+                    "question": "Can we confirm that the possibility of the festival including interactive workshops is itself a certainty?  ",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Can we not confirm that the possibility of the festival including interactive workshops is itself a certainty?",
+                    "answer": "no."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,386 @@
+{
+    "type": "modal_logic",
+    "axiom": "possibility_closure",
+    "example_sentences": [
+        {
+            "context": "The museum has a history of extending its hours during high-demand exhibitions to accommodate more visitors. It is possible that the museum extends its hours for special exhibitions.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The museum will always extend its hours for any exhibition."
+                },
+                {
+                    "choice_2": "The museum never extends its hours, regardless of the exhibition."
+                },
+                {
+                    "choice_3": "The possibility of the museum extending its hours for special exhibitions is necessary."
+                },
+                {
+                    "choice_4": "The possibility of the museum extending its hours is dependent on the weather or John's schedule."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The restaurant frequently updates its menu to cater to dietary preferences and trends. It is possible that the restaurant offers vegan options on the menu.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "All customers at the restaurant must follow a gluten-free diet."
+                },
+                {
+                    "choice_2": "The possibility of the restaurant offering vegan options on the menu is necessary."
+                },
+                {
+                    "choice_3": "The restaurant will only serve meat or fish options on the menu."
+                },
+                {
+                    "choice_4": "The chef, John, exclusively uses dairy products in all dishes."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The library has previously extended study hours during finals to accommodate the needs of students. It is possible that the library provides extended study hours during finals week.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The library has never provided extended study hours during finals week or Michael will reduce the number of available study rooms."
+                },
+                {
+                    "choice_2": "The possibility of the library providing extended study hours during finals week is necessary."
+                },
+                {
+                    "choice_3": "The library will definitely provide extended study hours during finals week or John will become the new librarian."
+                },
+                {
+                    "choice_4": "The possibility of the library providing extended study hours during finals week is impossible or Sarah will extend the library's budget."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The company is exploring flexible work arrangements to support employee well-being and productivity. It is possible that the company introduces remote work options for employees.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The company will definitely introduce a new line of products or expand to international markets."
+                },
+                {
+                    "choice_2": "The possibility of the company introducing remote work options for employees is necessary."
+                },
+                {
+                    "choice_3": "The company will increase employee salaries by 20% or implement a four-day workweek."
+                },
+                {
+                    "choice_4": "John will be promoted to the position of CEO or the company will relocate its headquarters."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The school has a program for students who need extra academic support, and after-school tutoring has been implemented in the past. It is possible that the school offers after-school tutoring for struggling students.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The possibility of the school offering weekend sports activities is necessary."
+                },
+                {
+                    "choice_2": "The school has decided to cancel all after-school programs or John has been appointed as the new principal."
+                },
+                {
+                    "choice_3": "The school will definitely increase the number of teachers or Sarah will be the new head of the academic support program."
+                },
+                {
+                    "choice_4": "The possibility of the school offering after-school tutoring for struggling students is necessary."
+                }
+            ],
+            "answer": "choice_4"
+        },
+        {
+            "context": "The library has recently upgraded its digital infrastructure to make resources more accessible. It is possible that the library provides online reading materials.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The possibility of the library providing online reading materials is necessary."
+                },
+                {
+                    "choice_2": "The library will definitely close its physical branches or stop providing physical books."
+                },
+                {
+                    "choice_3": "Sarah thinks that the library's recent upgrade means they will no longer offer any reading materials."
+                },
+                {
+                    "choice_4": "John believes that the library's digital infrastructure upgrade is solely for improving internet speed."
+                }
+            ],
+            "answer": "choice_1"
+        },
+        {
+            "context": "The gym is expanding its facilities to offer a variety of fitness options to its members. It is possible that the gym has a dedicated yoga space.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The gym is considering reducing its membership fees or offering free trial periods to attract more members."
+                },
+                {
+                    "choice_2": "The gym will definitely have a swimming pool or a basketball court."
+                },
+                {
+                    "choice_3": "The possibility of the gym having a dedicated yoga space is necessary."
+                },
+                {
+                    "choice_4": "The gym's expansion is solely focused on adding more weightlifting equipment or hiring new personal trainers."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The restaurant is known for adapting to changing food trends and customer preferences. It is possible that the restaurant introduces a vegan menu.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The restaurant will definitely introduce a new seafood menu."
+                },
+                {
+                    "choice_2": "The possibility of the restaurant introducing a vegan menu is necessary."
+                },
+                {
+                    "choice_3": "The possibility of the restaurant introducing a gluten-free menu is necessary or John will become the new head chef."
+                },
+                {
+                    "choice_4": "The restaurant will only serve traditional dishes and ignore all food trends."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The school is exploring options to provide more flexible learning opportunities. It is possible that the school offers evening classes for adults.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The school is considering hiring more teachers or building a new library."
+                },
+                {
+                    "choice_2": "The possibility of the school offering weekend sports activities for teenagers is necessary."
+                },
+                {
+                    "choice_3": "The possibility of the school offering evening classes for adults is necessary."
+                },
+                {
+                    "choice_4": "The school will definitely start offering cooking classes for children."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The company has implemented flexible work policies in response to employee feedback. It is possible that the company allows remote work for some roles.  ",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "John or Sarah have been appointed as the new managers for the flexible work policy."
+                },
+                {
+                    "choice_2": "The company requires all employees, including those in remote-friendly roles, to work from the office."
+                },
+                {
+                    "choice_3": "The possibility of the company allowing remote work for some roles is necessary."
+                },
+                {
+                    "choice_4": "The company has decided to eliminate all flexible work policies."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The library staff is reviewing usage patterns and considering community demands. It is possible that the library could extend its opening hours.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The library will definitely close earlier to save on operational costs."
+                },
+                {
+                    "choice_2": "John or Sarah will be responsible for managing the new coffee shop in the library."
+                },
+                {
+                    "choice_3": "The community demands are irrelevant, and the library staff will not consider them."
+                },
+                {
+                    "choice_4": "The possibility of the library extending its opening hours is necessary."
+                }
+            ],
+            "answer": "choice_4"
+        },
+        {
+            "context": "The gym regularly updates its schedule based on member interest and feedback. It is possible that the gym introduces new fitness classes.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The gym will only offer yoga classes."
+                },
+                {
+                    "choice_2": "The possibility of the gym introducing new fitness classes is necessary."
+                },
+                {
+                    "choice_3": "The gym will remove all existing fitness classes."
+                },
+                {
+                    "choice_4": "The gym's schedule is fixed and cannot be changed."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The online shop evaluates sales trends and customer preferences during the holiday season. It is possible that the online shop has a holiday sale.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The possibility of the online shop having a holiday sale is necessary."
+                },
+                {
+                    "choice_2": "John believes that the online shop will not have any sales this season."
+                },
+                {
+                    "choice_3": "The online shop will definitely have a holiday sale."
+                },
+                {
+                    "choice_4": "The online shop's evaluation of sales trends and customer preferences is unnecessary or irrelevant."
+                }
+            ],
+            "answer": "choice_1"
+        },
+        {
+            "context": "The school is planning special educational events based on curriculum goals and student interest. It is possible that the school organizes a field trip.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The school will definitely organize a field trip or a science fair."
+                },
+                {
+                    "choice_2": "The possibility of the school organizing a field trip is based on John's recommendation."
+                },
+                {
+                    "choice_3": "The possibility of the school organizing a field trip is necessary."
+                },
+                {
+                    "choice_4": "The school will cancel all educational events or focus solely on online activities."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The restaurant focuses on fresh, local ingredients and often updates its menu based on seasonal availability. It is possible that the restaurant serves seasonal dishes.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The restaurant exclusively serves Italian cuisine or is owned by John."
+                },
+                {
+                    "choice_2": "The possibility of the restaurant serving seasonal dishes is necessarily confirmed."
+                },
+                {
+                    "choice_3": "The restaurant is open 24/7 or offers a fixed menu throughout the year."
+                },
+                {
+                    "choice_4": "The restaurant has won multiple international awards or is located in a historic building."
+                }
+            ],
+            "answer": "choice_2"
+        },
+        {
+            "context": "The event organizers are considering collaborations with various artists to enhance the concert experience. It is possible that the concert features guest performers.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The possibility of the concert featuring guest performers is necessary."
+                },
+                {
+                    "choice_2": "The event organizers have decided against any collaborations with artists or Jane Smith."
+                },
+                {
+                    "choice_3": "The concert will definitely feature guest performers or John Doe."
+                },
+                {
+                    "choice_4": "The concert will only feature the main artist and no guest performers or Mike Johnson."
+                }
+            ],
+            "answer": "choice_1"
+        },
+        {
+            "context": "The tech company is exploring market trends and customer needs to expand its offerings. It is possible that the tech company launches a new product line.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The tech company is planning to reduce its current product offerings or focus solely on existing products."
+                },
+                {
+                    "choice_2": "John has decided to leave the tech company for a new opportunity."
+                },
+                {
+                    "choice_3": "The tech company will definitely launch a new product line next month."
+                },
+                {
+                    "choice_4": "The possibility of the tech company launching a new product line is necessary."
+                }
+            ],
+            "answer": "choice_4"
+        },
+        {
+            "context": "The bookstore regularly collaborates with publishers and local authors to promote new releases. It is possible that the bookstore hosts author signings.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The possibility of the bookstore offering free coffee to all customers is necessary."
+                },
+                {
+                    "choice_2": "The possibility of the bookstore hosting book club meetings is necessary."
+                },
+                {
+                    "choice_3": "The possibility of the bookstore hosting author signings is necessary."
+                },
+                {
+                    "choice_4": "The possibility of the bookstore having a section dedicated to John Doe's artwork is necessary."
+                }
+            ],
+            "answer": "choice_3"
+        },
+        {
+            "context": "The museum rotates its exhibitions to include a variety of artistic styles and movements. It is possible that the museum exhibits contemporary art.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The museum's curator, John, only prefers to display modernist works or impressionist pieces."
+                },
+                {
+                    "choice_2": "The museum rotates its exhibitions every five years or remains closed for renovations."
+                },
+                {
+                    "choice_3": "The museum exclusively exhibits classical art or Renaissance paintings."
+                },
+                {
+                    "choice_4": "The possibility of the museum exhibiting contemporary art is itself necessary."
+                }
+            ],
+            "answer": "choice_4"
+        },
+        {
+            "context": "The festival organizers are committed to offering engaging activities that cater to various audiences. It is possible that the festival includes interactive workshops.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": [
+                {
+                    "choice_1": "The organizers have decided to exclude all interactive activities or workshops."
+                },
+                {
+                    "choice_2": "The festival will only feature live music or dance performances."
+                },
+                {
+                    "choice_3": "John has confirmed that the festival will not include any engaging activities."
+                },
+                {
+                    "choice_4": "The possibility of the festival including interactive workshops is necessarily confirmed."
+                }
+            ],
+            "answer": "choice_4"
+        }
+    ]
+}

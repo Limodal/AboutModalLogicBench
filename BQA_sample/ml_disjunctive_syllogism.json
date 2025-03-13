@@ -1,0 +1,266 @@
+{
+    "type": "modal_logic",
+    "axiom": "disjunctive_syllogism",
+    "example_sentences": [
+        {
+            "context": "The advertisement for the concert states that it will include either a popular band or a local artist. One or both of these performances must happen. We are not certain which one is guaranteed. However, according to the promoter, the popular band might not be able to perform.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the concert will necessarily feature the local artist?",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Does this mean that the concert will not necessarily feature the local artist?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The store's flyer indicates that there will be either a special sale on electronics or clothing. One or both of these sales are definitely happening. It's unclear which one is certain. However, the store manager mentioned that the sale on electronics is not guaranteed.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that there will necessarily be a special sale on clothing?",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Does this mean that there will necessarily not be a special sale on clothing?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The film critic mentioned that the studio plans to either produce a sequel or a spin-off to the popular movie. One or both of these follow-ups is on the way. We don't know which one is assured. However, the director suggested that a sequel isn't necessarily in the works.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that there will necessarily be a spin-off?",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Does this mean that there will necessarily not be a spin-off?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The sports analyst predicted that the team might either win the championship or the runner-up title. One or both outcomes are likely to occur. We aren't sure which one will definitely happen. However, the coach implied that winning the championship is not a certainty.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the team will necessarily win the runner-up title?",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Does this mean that the team will not necessarily win the runner-up title?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The tracking information suggests that the package will either arrive by noon or by the end of the day. One or both of these delivery times is assured. We cannot determine which one is definite. However, the delivery service noted that arriving by noon is not guaranteed.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the package will necessarily arrive by the end of the day?",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Does this mean that the package will not necessarily arrive by the end of the day?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The event organizers have announced that the concert will either start at 7 PM or feature a special guest performer, making one or both of these statements true. We are uncertain about which is necessarily the case. However, ticket sales indicate that the concert may not definitely begin at 7 PM.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the special guest performer will definitely be part of the concert?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean that the special guest performer will definitely not be part of the concert?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The analysts mentioned that the report will either be published tomorrow or that it will contain new insights, meaning one or both of these outcomes must happen. We don't know which will occur necessarily. However, the team has advised that the report may not be published as planned.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that it is necessary for the report to contain new insights?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean that it is not necessary for the report to contain new insights?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The promotional material states that the movie will either be released next week or will feature a famous actor, meaning at least one of these scenarios is guaranteed. We're unclear on which is definitely correct. However, insiders suggest that the movie's release next week is not guaranteed.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean we can conclude that the movie will feature a famous actor?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean we can't conclude that the movie will feature a famous actor?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The manager confirmed that the store will either have a sale this weekend or will provide discounts on electronics, ensuring that at least one of these outcomes will occur. However, it's unclear which is inevitable. Yet, reports suggest the store may not have the sale over the weekend.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the store will definitely offer discounts on electronics?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean that the store will definitely not offer discounts on electronics?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The menu indicates that the chef will either prepare a vegetarian dish or a gluten-free dish, signifying one or both options must be available. We are unsure which one will be prepared necessarily. Nevertheless, there are indications that the vegetarian dish may not be on the menu.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean it is certain the chef will prepare a gluten-free dish?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean it is not certain the chef will prepare a gluten-free dish?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The studio announced that the movie will either premiere in theaters or be available for streaming on the same day. One or both of these options will definitely happen. However, according to the production team, it is not guaranteed that the movie will be released in theaters.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the movie will definitely be available for streaming tomorrow?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean that the movie will definitely not be available for streaming tomorrow?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The city officials stated that the broken bridge will either be repaired today or will remain closed for safety reasons. One or both outcomes must occur. However, local authorities mentioned that it is not certain the bridge will be repaired today.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the bridge will necessarily be closed for safety?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean that the bridge won't necessarily be closed for safety?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The event organizers declared that the concert will either occur in the park or be streamed online. One or both options will surely happen. However, they indicated that it is not necessarily the case that the concert will be held at the park.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the concert will definitely be held online?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean that the concert will definitely not be held online?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The team lead announced that John will either attend the business meeting in person or will opt to work from home that day. One or both situations must take place. However, it is not confirmed that John will attend the meeting.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean John will necessarily work from home?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean John will not necessarily work from home?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The principal announced that the school will either have a field trip next week or will transition to virtual classes. One or both of these events will take place. However, it is not guaranteed that the field trip will happen.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean the school will definitely hold virtual classes next week?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean the school will definitely not hold virtual classes next week?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "Maria mentioned that she will either bake a cake for the celebration or buy one from the bakery. One or both of these actions will definitely occur. However, she has stated that baking the cake is not necessarily guaranteed.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that Maria will necessarily buy a cake from the bakery?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean that Maria will not necessarily buy a cake from the bakery?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The mechanic confirmed that the car will either pass the emissions test or will require further repairs. One or both possibilities must come true. However, it\u2019s been mentioned that it is not necessarily the case that the car will pass the emissions test.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the car will definitely go for repairs?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean that the car won't definitely go for repairs?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The organizers stated that the festival will either take place outdoors as scheduled or will be moved indoors. One or both arrangements will certainly be made. However, it was indicated that having the festival outdoors is not necessarily guaranteed.  ",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that the festival will definitely be moved indoors?  ",
+                    "answer": "yes.  "
+                },
+                {
+                    "question": "Does this mean that the festival will definitely not be moved indoors?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "The weather forecast for tonight says it will either rain or snow tomorrow. One or both of these things is bound to happen. We're not sure which one is inevitable. However, according to the experts, it won't necessarily rain tomorrow.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean it will definitely snow tomorrow?",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Does this mean it will definitely not snow tomorrow?",
+                    "answer": "no."
+                }
+            ]
+        },
+        {
+            "context": "Lisa heard that there will be either a basketball match or a football match tomorrow. One or both of these two matches will definitely be held. We are not sure which match is inevitable. However, according to the PE teacher, the basketball match may not be held.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that there will necessarily be a football match tomorrow?",
+                    "answer": "yes."
+                },
+                {
+                    "question": "Does this mean that there will necessarily not be a football match tomorrow?",
+                    "answer": "no."
+                }
+            ]
+        }
+    ]
+}
