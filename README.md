@@ -1,6 +1,9 @@
+# Specific presentation of prompts and discussion examples about ModalLogicBench
+
 **A  Prompts for Sentence Generation**
 
-The sentence generation schema consists of three main modules: the task definition, the example sentence, and the format instruction. The task definition provides a natural language representation of the rules from the Rule2NL part. The example sentence helps the generative model understand the rule's meaning and illustrates the format for the third part. The format instruction guides the model to generate sentences in the correct structure. For example, the mMiN rule, ♢¬p ⊢ ¬□p, translates to “If ‘probably not p’ is true, then we can infer ‘not necessarily p’.” .
+The sentence generation schema consists of three main modules: the task definition, the example sentence, and the format instruction. The task definition provides a natural language representation of the rules from the Rule2NL part. The example sentence helps the generative model understand the rule's meaning and illustrates the format for the third part. The format instruction guides the model to generate sentences in the correct structure. For example, the mMiN rule, ◇¬p ⊢ ¬□p, translates to “If ‘probably not p’ is true, then we can infer ‘not necessarily p’.” .
+The specific process is shown in the following figure.
 ![image](https://github.com/user-attachments/assets/b2dc26ab-aa68-4a83-84b8-ae5c0661ec47)
 
 **B  Task MCQA(Question selection and incorrect generation)**
@@ -13,8 +16,9 @@ Candidate questions for the MCQA task are randomly selected from the following t
 
 3.	Based on the context, what conclusion would be deemed most suitable?
 
-The generated prompt regarding the MCQA incorrect option is shown in Fig. 4
-![image](https://github.com/user-attachments/assets/4872c8b5-59d9-4526-b78e-77d256b095cc)
+The generated prompt regarding the MCQA incorrect option is shown in the following figure.
+![image](https://github.com/user-attachments/assets/61abb4ed-d6c7-439e-a2df-751a5cfc2137)
+
 
 **C  Prompt for Task BQA and MCQA Evaluation**
 
@@ -24,7 +28,17 @@ For BQA and MCQA tasks, the zero-shot CoT format differs between the two. BQA in
 
 **D  The Example of Process Fallacies**
 
+We use the mBD rule to illustrate the process fallacy phenomenon.
 
+The mBD criterion has the following form:  □(p→r),□(q→s),□p∨□-s=> □r∨□-q,  and its natural language representation is “If it is necessarily the case that if p holds, then r must hold,  and it is necessarily the case that if q holds, then s must hold,  and it is necessarily the case that either p holds or s is false,  then it must necessarily be the case that either r holds or q is false.” We analyze the reasoning processes of GPT-4o  mini qwq-32b-preview,  and DeepSeek-R1 for this criterion. Although all three models reach the final conclusion of “yes”,  GPT-4o mini only performs semantic deduction and considers only a subset of possible cases. In contrast,  DeepSeek-R1 accounted for all aspects but failed to explicitly indicate modal operators during symbolic transformation.  Meanwhile,  qwq-32b-preview performed a more rigorous and comprehensive reasoning process. The specific context and question are  shown in Table 1, and the detailed reasoning procedure is shown in Table 2.
+
+**Table 1**
+Context/Question  | Natural language statement 
+ ---- | -----  
+Context  | If it is necessarily the case that Noah trains for the marathon, then he must necessarily build physical endurance. If it is necessarily the case that Mia prepares healthy meals, then she must necessarily feel energized. It is understood that either Noah necessarily trains for the marathon or Mia necessarily does not feel energized. It is unclear which statement is accurate, or whether both are accurate.
+Question | Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Noah builds physical endurance, (b) It must not be the case that Mia prepares healthy meals. 
+
+**Table 2**
  Model Name  | Reasoning Steps
  ---- | -----   
 GPT4omini  | 1. The context establishes that if Noah trains for the marathon, he must build physical endurance.2. It is also established that if Mia prepares healthy meals, she must feel energized.3. We know that either Noah necessarily trains for the marathon, or Mia necessarily does not feel energized.4. If Noah does not train for the marathon, then Mia must not feel ener-gized, which implies Mia does not prepare healthy meals.5. Therefore, it is always true that at least one of the following must hold:- (a) Noah builds physical endurance (if he trains for the mara-thon).- (b) Mia does not prepare healthy meals (if she does not feel en-ergized).
