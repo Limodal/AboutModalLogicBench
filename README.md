@@ -6,6 +6,16 @@ The sentence generation schema consists of three main modules: the task definiti
 The specific process is shown in the following figure.
 ![image](https://github.com/user-attachments/assets/b2dc26ab-aa68-4a83-84b8-ae5c0661ec47)
 
+**B Examples of original and variant questions for the mBD rule in ModalLogicBench_BQA.**
+
+ Propositions and questions of mBD  | Natural language statement  
+ ---- | ----- 
+Propositions  | (a) It must be the case that the system has become operational, (b) It must not be the case that Liam drafts the project proposal.
+Original Question  | Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the system has become operational, (b) It must not be the case that Liam drafts the project proposal.
+Variant Question1  | Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the system has become operational, (b) It must not be the case that Liam drafts the project proposal. 
+Variant Question2  | Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the system has become operational, (b) It must be the case that Liam drafts the project proposal. 
+Variant Question3  | Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the system has become operational, (b) It must be the case that Liam drafts the project proposal. 
+
 **B  Task MCQA(Question selection and incorrect generation)**
 
 Candidate questions for the MCQA task are randomly selected from the following three questions.
