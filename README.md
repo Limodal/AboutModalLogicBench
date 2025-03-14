@@ -8,6 +8,8 @@ The specific process is shown in the following figure.
 
 **B Examples of original and variant questions for the mBD rule in ModalLogicBench_BQA.**
 
+We use mBD (□(p→r),□(q→s),□p∨□¬s ⊢ □r∨□¬q) as an example and compose the other three variant questions with different state combinations of propositions r and q (□¬r∨□¬q，□¬r∨□q, and □r∨□q).
+
  Propositions and questions of mBD  | Natural language statement  
  ---- | ----- 
 Propositions  | (a) It must be the case that the system has become operational, (b) It must not be the case that Liam drafts the project proposal.
@@ -16,7 +18,20 @@ Variant Question1  | Can we say that at least one of the following (a) and (b) i
 Variant Question2  | Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the system has become operational, (b) It must be the case that Liam drafts the project proposal. 
 Variant Question3  | Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the system has become operational, (b) It must be the case that Liam drafts the project proposal. 
 
-**B  Task MCQA(Question selection and incorrect generation)**
+**C Examples of questions and choices for the mBD rule in ModalLogicBench_MCQA**
+
+Let's take mBD as an example, where choice_3 is the correct option.
+
+ Propositions and questions of mBD  | Natural language statement  
+ ---- | -----   
+  Context  | If it is necessarily the case that Emma completes the software update, then the system must necessarily become operational. If it is necessarily the case that Liam drafts the project proposal, then the proposal must necessarily get submitted. It is known that either Emma necessarily completes the software update or the proposal is necessarily not submitted. It is uncertain which statement is correct, or whether both are correct.    
+ Question  | What would be the most appropriate conclusion based on the given context?  
+ Choice_1  | It must be the case that the proposal is submitted or it must not be the case that Emma completes the software update. 
+Choice_2  | It must be the case that the system has become operational or it must not be the case that John completes the software update.
+Choice_3  | It must be the case that the system has become operational or it must not be the case that Liam drafts the project proposal.
+Choice_4  | It must be the case that the system has become operational or it must not be the case that Sarah reviews the project proposal. 
+
+**D  Task MCQA(Question selection and incorrect generation)**
 
 Candidate questions for the MCQA task are randomly selected from the following three questions.
 
@@ -30,13 +45,13 @@ The generated prompt regarding the MCQA incorrect option is shown in the followi
 ![image](https://github.com/user-attachments/assets/61abb4ed-d6c7-439e-a2df-751a5cfc2137)
 
 
-**C  Prompt for Task BQA and MCQA Evaluation**
+**E  Prompt for Task BQA and MCQA Evaluation**
 
 For BQA and MCQA tasks, the zero-shot CoT format differs between the two. BQA involves determining whether a question is true or false, so the input requires only the context, question, and CoT prompt. In contrast, for MCQA, you also need to provide options. We have defined three different prompt strategies for each task.
 
 ![image](https://github.com/user-attachments/assets/72514635-30cd-44d4-bfdb-087ef38e9eb9)
 
-**D  The Example of Process Fallacies**
+**F  The Example of Process Fallacies**
 
 We use the mBD rule to illustrate the process fallacy phenomenon.
 
