@@ -1,4 +1,4 @@
-# Specific presentation of prompts and discussion examples about ModalLogicBench
+# Specific presentation of task formats, generated prompts and discussion examples about ModalLogicBench
 
 **A  Prompts for Sentence Generation**
 
