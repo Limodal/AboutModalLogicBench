@@ -1,5 +1,7 @@
 # Specific presentation of task formats, generated prompts and discussion examples about ModalLogicBench
 
+**We provide examples of mBD,mDS and mPC in the code section for reference！**
+
 **A  Prompts for Sentence Generation**
 
 The sentence generation schema consists of three main modules: the task definition, the example sentence, and the format instruction. The task definition provides a natural language representation of the rules from the Rule2NL part. The example sentence helps the generative model understand the rule's meaning and illustrates the format for the third part. The format instruction guides the model to generate sentences in the correct structure. For example, the mMiN rule, ◇¬p ⊢ ¬□p, translates to “If ‘probably not p’ is true, then we can infer ‘not necessarily p’.” .
