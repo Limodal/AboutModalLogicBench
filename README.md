@@ -84,7 +84,7 @@ We use the mPC rule to illustrate once again the case where the modal operator i
 
 For mPC rule, ◇A⊢□◇A, both the general-purpose models and the reasoning model perform poorly on "yes" or "no" label prediction. The natural language description of this rule is "If p can occur in at least one accessible situation, then in every accessible situation, it must remain possible for p to occur." 
 
-We illustrate this issue with an example where all reasoning models produces the incorrect result. The context and question are presented in Table 3.2.1, while the detailed inference steps of the reasoning models are outlined in Table 3.2.2.
+We illustrate this issue with an example where all reasoning models produces the incorrect result of "no". The context and question are presented in Table 3.2.1, while the detailed inference steps of the reasoning models are outlined in Table 3.2.2.
 
 **Table 3.2.1**
 Context/Question  | Natural language statement 
@@ -95,6 +95,6 @@ Context/Question  | Natural language statement
  **Table 3.2.2**
  Model Name  | Reasoning Steps
  ---- | -----   
- o1 | While the recent digital infrastructure upgrade suggests it is possible the library may provide online reading materials, there is no definitive confirmation in the given context to make it a certainty.
+ o1 (the thought process is removed) | While the recent digital infrastructure upgrade suggests it is possible the library may provide online reading materials, there is no definitive confirmation in the given context to make it a certainty.
 qwq-32b-preview  | 1. the context states that the library has upgraded its digital infrastructure to make resources more accessible. 2. it suggests that it is possible the library provides online reading materials. 3. however, the statement does not confirm that online reading materials are definitely provided; it only presents it as a possibility. 4. therefore, while it's likely that the library offers online reading materials after the upgrade, we cannot confirm it as a certainty based on the given information.5. so, the possibility of the library providing online reading materials is not itself a certainty; it's still just a possibility. hence, the answer is no.
-DeepSeek-R1 | The context states it is "possible" the library provides online materials, implying uncertainty. Upgrading digital infrastructure supports accessibility but doesn't confirm the existence of online reading materials. Possibility ≠ certainty.
+DeepSeek-R1 (the thought process is removed)  | The context states it is "possible" the library provides online materials, implying uncertainty. Upgrading digital infrastructure supports accessibility but doesn't confirm the existence of online reading materials. Possibility ≠ certainty.
