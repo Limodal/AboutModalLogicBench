@@ -4,7 +4,7 @@
 
 ## 1. Tash Formats
 
-**1.1 Examples of original and variant questions for the mBD rule in ModalLogicBench_BQA.**
+### 1.1 Examples of original and variant questions for the mBD rule in ModalLogicBench_BQA.
 
 We use mBD (□(p→r),□(q→s),□p∨□¬s ⊢ □r∨□¬q) as an example and compose the other three variant questions with different state combinations of propositions r and q (□¬r∨□¬q，□¬r∨□q, and □r∨□q).
 
@@ -16,7 +16,7 @@ Variant Question1  | Can we say that at least one of the following (a) and (b) i
 Variant Question2  | Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that the system has become operational, (b) It must be the case that Liam drafts the project proposal. 
 Variant Question3  | Can we say that at least one of the following (a) and (b) is always true? (a) It must not be the case that the system has become operational, (b) It must be the case that Liam drafts the project proposal. 
 
-**1.2 Examples of questions and choices for the mBD rule in ModalLogicBench_MCQA**
+### 1.2 Examples of questions and choices for the mBD rule in ModalLogicBench_MCQA
 
 Let's take mBD as an example, where choice_3 is the correct option.
 
@@ -31,13 +31,13 @@ Choice_4  | It must be the case that the system has become operational or it mus
 
 ## 2. Key prompts  for ModalLogicBench
 
-**2.1  Prompts for Sentence Generation**
+### 2.1  Prompts for Sentence Generation
 
 The sentence generation schema consists of three main modules: the task definition, the example sentence, and the format instruction. The task definition provides a natural language representation of the rules from the Rule2NL part. The example sentence helps the generative model understand the rule's meaning and illustrates the format for the third part. The format instruction guides the model to generate sentences in the correct structure. For example, the mMiN rule, ◇¬p ⊢ ¬□p, translates to “If ‘probably not p’ is true, then we can infer ‘not necessarily p’.” .
 The specific process is shown in the following figure.
 ![image](https://github.com/user-attachments/assets/b2dc26ab-aa68-4a83-84b8-ae5c0661ec47)
 
-**2.2  Task MCQA(Question selection and incorrect generation)**
+### 2.2  Task MCQA(Question selection and incorrect generation)
 
 Candidate questions for the MCQA task are randomly selected from the following three questions.
 
@@ -51,7 +51,7 @@ The generated prompt regarding the MCQA incorrect option is shown in the followi
 ![image](https://github.com/user-attachments/assets/61abb4ed-d6c7-439e-a2df-751a5cfc2137)
 
 
-**2.3  Prompt for Task BQA and MCQA Evaluation**
+### 2.3  Prompt for Task BQA and MCQA Evaluation
 
 For BQA and MCQA tasks, the zero-shot CoT format differs between the two. BQA involves determining whether a question is true or false, so the input requires only the context, question, and CoT prompt. In contrast, for MCQA, you also need to provide options. We have defined three different prompt strategies for each task.
 
@@ -59,7 +59,7 @@ For BQA and MCQA tasks, the zero-shot CoT format differs between the two. BQA in
 
 
 ## 3. Discussion Examples
-**3.1  The Example of Process Fallacies**
+### 3.1  The Example of Process Fallacies
 
 We use the mBD rule to illustrate the process fallacy phenomenon.
 
