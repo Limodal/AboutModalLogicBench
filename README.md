@@ -82,9 +82,9 @@ DeepSeek-R1(the thought process is removed) | 1. Premises: N → B, M → E, and
 
 We use the mPC rule to illustrate once again the case where the modal operator is not understood by the LLMs.
 
-For mPC rule, ◇A⊢□◇A, both the general-purpose models and the reasoning model perform poorly on "yes" or "no" label prediction. The natural language description of this rule is "If p can occur in at least one accessible situation, then in every accessible situation, it must remain possible for p to occur." 
+For mPC rule, ◇A⊢□◇A, both the general-purpose models and the reasoning models perform poorly on "yes" or "no" label prediction. The natural language description of this rule is "If p can occur in at least one accessible situation, then in every accessible situation, it must remain possible for p to occur." 
 
-We illustrate this issue with an example where all reasoning models produces the incorrect result of "no". The context and question are presented in Table 3.2.1, while the detailed inference steps of the reasoning models are outlined in Table 3.2.2.
+We illustrate this issue with an example where all reasoning models produces the incorrect answer of **"no"**. The context and question are presented in Table 3.2.1, while the detailed inference steps of the reasoning models are outlined in Table 3.2.2.
 
 **Table 3.2.1**
 Context/Question  | Natural language statement 
