@@ -37,7 +37,7 @@ The sentence generation schema consists of three main modules: the task definiti
 The specific process is shown in the following figure.
 ![image](https://github.com/user-attachments/assets/b2dc26ab-aa68-4a83-84b8-ae5c0661ec47)
 
-### 2.2  Task MCQA(Question selection and incorrect generation)
+### 2.2  Task MCQA(Question selection and incorrect options generation)
 
 Candidate questions for the MCQA task are randomly selected from the following three questions.
 
