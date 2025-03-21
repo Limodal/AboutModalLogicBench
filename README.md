@@ -63,17 +63,38 @@ For BQA and MCQA tasks, the zero-shot CoT format differs between the two. BQA in
 
 We use the mBD rule to illustrate the process fallacy phenomenon.
 
-The mBD criterion has the following form:  □(p→r),□(q→s),□p∨□-s=> □r∨□-q,  and its natural language representation is “If it is necessarily the case that if p holds, then r must hold,  and it is necessarily the case that if q holds, then s must hold,  and it is necessarily the case that either p holds or s is false,  then it must necessarily be the case that either r holds or q is false.” We analyze the reasoning processes of GPT-4o  mini qwq-32b-preview,  and DeepSeek-R1 for this criterion. Although all three models reach the final conclusion of “yes”,  GPT-4o mini only performs semantic deduction and considers only a subset of possible cases. In contrast,  DeepSeek-R1 accounted for all aspects but failed to explicitly indicate modal operators during symbolic transformation.  Meanwhile,  qwq-32b-preview performed a more rigorous and comprehensive reasoning process. The specific context and question are  shown in Table 1, and the detailed reasoning procedure is shown in Table 2.
+The mBD criterion has the following form:  □(p→r),□(q→s),□p∨□-s=> □r∨□-q,  and its natural language representation is “If it is necessarily the case that if p holds, then r must hold,  and it is necessarily the case that if q holds, then s must hold,  and it is necessarily the case that either p holds or s is false,  then it must necessarily be the case that either r holds or q is false.” We analyze the reasoning processes of GPT-4o  mini qwq-32b-preview,  and DeepSeek-R1 for this criterion. Although all three models reach the correct conclusion of “yes”,  GPT-4o mini only performs semantic deduction and considers only a subset of possible cases. In contrast,  DeepSeek-R1 accounted for all aspects but failed to explicitly indicate modal operators during symbolic transformation.  Meanwhile,  qwq-32b-preview performed a more rigorous and comprehensive reasoning process. The specific context and question are  shown in Table 3.1.1, and the detailed reasoning procedure is shown in Table 3.1.2.
 
-**Table 1**
+**Table 3.1.1**
 Context/Question  | Natural language statement 
  ---- | -----  
 Context  | If it is necessarily the case that Noah trains for the marathon, then he must necessarily build physical endurance. If it is necessarily the case that Mia prepares healthy meals, then she must necessarily feel energized. It is understood that either Noah necessarily trains for the marathon or Mia necessarily does not feel energized. It is unclear which statement is accurate, or whether both are accurate.
 Question | Can we say that at least one of the following (a) and (b) is always true? (a) It must be the case that Noah builds physical endurance, (b) It must not be the case that Mia prepares healthy meals. 
 
-**Table 2**
+**Table 3.1.2**
  Model Name  | Reasoning Steps
  ---- | -----   
 GPT4omini  | 1. The context establishes that if Noah trains for the marathon, he must build physical endurance.2. It is also established that if Mia prepares healthy meals, she must feel energized.3. We know that either Noah necessarily trains for the marathon, or Mia necessarily does not feel energized.4. If Noah does not train for the marathon, then Mia must not feel ener-gized, which implies Mia does not prepare healthy meals.5. Therefore, it is always true that at least one of the following must hold:- (a) Noah builds physical endurance (if he trains for the mara-thon).- (b) Mia does not prepare healthy meals (if she does not feel en-ergized).
 qwq-32b-preview  | 1. Let's break down the given statements and see what they imply.2. First, "if it is necessarily the case that Noah trains for the marathon, then he must necessarily build physical endurance." this can be repre-sented as: □n → □e, where n is "Noah trains for the marathon" and e is "Noah builds physical endurance."3. Second, "if it is necessarily the case that Mia prepares healthy meals, then she must necessarily feel energized." this can be represented as: □m → □f, where m is "Mia prepares healthy meals" and f is "Mia feels en-ergized."4. Third, "it is understood that either Noah necessarily trains for the marathon or Mia necessarily does not feel energized." this can be repre-sented as: □n ∨ □¬f.5. We need to determine if at least one of the following is always true: (a) it must be the case that Noah builds physical endurance (□e), or (b) it must not be the case that Mia prepares healthy meals (□¬m).6. So, we need to see if □e ∨ □¬m is always true given the previous statements.7. Let's consider the possible scenarios. 8. Scenario 1: □n is true. a. from □n → □e, if □n is true, then □e must be true. b. therefore, in this scenario, □e is true, so □e ∨ □¬m is true.9. Scenario 2: □n is false. a. from □n ∨ □¬f, if □n is false, then □¬f must be true. b. so, □¬f is true, which means it is necessarily the case that Mia does not feel energized. c. now, consider □m → □f. d. if □m is true, then □f must be true. e. but we have □¬f is true, which contradicts □f.f. therefore, □m cannot be true;  otherwise, we have □f and □¬f, which is a contradiction. g. hence, □¬m must be true. h. therefore, in this scenario, □¬m is true, so □e ∨ □¬m is true.10. In both possible scenarios, □e ∨ □¬m is true.11. Therefore, we can say that at least one of (a) or (b) is always true.
 DeepSeek-R1(the thought process is removed) | 1. Premises: N → B, M → E, and N ∨ ¬E.2. If N is true, B must hold (from N→B), making (a) true.3. If N is false, ¬E must hold (from N∨¬E).4. ¬E implies ¬M (contrapositive of M→E), making (b) true.5. Thus, in all scenarios, at least (a) or (b) is necessarily true.
+
+### 3.2 Another examples of the LLMs do not understand
+
+We use the mPC rule to illustrate once again the case where the modal operator is not understood by the LLMs.
+
+For mPC rule, ◇A⊢□◇A, both the general-purpose models and the reasoning model perform poorly on "yes" or "no" label prediction. The natural language description of this rule is "If p can occur in at least one accessible situation, then in every accessible situation, it must remain possible for p to occur." 
+
+We illustrate this issue with an example where all reasoning models produces the incorrect result. The context and question are presented in Table 3.2.1, while the detailed inference steps of the reasoning models are outlined in Table 3.2.2.
+
+**Table 3.2.1**
+Context/Question  | Natural language statement 
+ ---- | -----  
+ Context | The library has recently upgraded its digital infrastructure to make resources more accessible. It is possible that the library provides online reading materials.  
+ Question | Can we confirm that the possibility of the library providing online reading materials is itself a certainty?  
+
+ **Table 3.2.2**
+ Model Name  | Reasoning Steps
+ ---- | -----   
+ o1 | While the recent digital infrastructure upgrade suggests it is possible the library may provide online reading materials, there is no definitive confirmation in the given context to make it a certainty.
+qwq-32b-preview  | 1. the context states that the library has upgraded its digital infrastructure to make resources more accessible. 2. it suggests that it is possible the library provides online reading materials. 3. however, the statement does not confirm that online reading materials are definitely provided; it only presents it as a possibility. 4. therefore, while it's likely that the library offers online reading materials after the upgrade, we cannot confirm it as a certainty based on the given information.5. so, the possibility of the library providing online reading materials is not itself a certainty; it's still just a possibility. hence, the answer is no.
+DeepSeek-R1 | The context states it is "possible" the library provides online materials, implying uncertainty. Upgrading digital infrastructure supports accessibility but doesn't confirm the existence of online reading materials. Possibility ≠ certainty.
