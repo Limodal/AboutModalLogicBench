@@ -47,7 +47,7 @@ Candidate questions for the MCQA task are randomly selected from the following t
 
 3.	Based on the context, what conclusion would be deemed most suitable?
 
-The generated prompt regarding the MCQA incorrect option is shown in the following figure.
+The generated prompt regarding the MCQA incorrect options is shown in the following figure.
 ![image](https://github.com/user-attachments/assets/61abb4ed-d6c7-439e-a2df-751a5cfc2137)
 
 
