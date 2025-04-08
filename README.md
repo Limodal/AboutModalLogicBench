@@ -35,7 +35,7 @@ Choice_4  | It must be the case that the system has become operational or it mus
 
 The sentence generation schema consists of three main modules: the task definition, the example sentence, and the format instruction. The task definition provides a natural language representation of the rules from the Rule2NL part. The example sentence helps the generative model understand the rule's meaning and illustrates the format for the third part. The format instruction guides the model to generate sentences in the correct structure. For example, the mMiN rule, ◇¬p ⊢ ¬□p, translates to “If ‘probably not p’ is true, then we can infer ‘not necessarily p’.” .
 The specific process is shown in the following figure.
-![image]([https://github.com/user-attachments/assets/b2dc26ab-aa68-4a83-84b8-ae5c0661ec47](https://github.com/Limodal/AboutModalLogicBench/blob/main/assets/Sentence%20Generate.png))
+![image](https://github.com/Limodal/AboutModalLogicBench/blob/main/assets/Sentence%20Generate.png)
 
 ### 2.2  Task MCQA(Question selection and incorrect options generation)
 
