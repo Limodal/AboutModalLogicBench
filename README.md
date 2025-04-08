@@ -55,7 +55,7 @@ The generated prompt regarding the MCQA incorrect options is shown in the follow
 
 For BQA and MCQA tasks, the zero-shot CoT format differs between the two. BQA involves determining whether a question is true or false, so the input requires only the context, question, and CoT prompt. In contrast, for MCQA, you also need to provide options. We have defined three different prompt strategies for each task.
 
-![image](https://github.com/user-attachments/assets/72514635-30cd-44d4-bfdb-087ef38e9eb9)
+![image](https://github.com/Limodal/AboutModalLogicBench/blob/main/assets/prompt%20for%20evalution.png)
 
 
 ## 3. Discussion Examples
